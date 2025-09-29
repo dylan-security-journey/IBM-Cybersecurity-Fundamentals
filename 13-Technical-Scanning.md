@@ -241,8 +241,6 @@ Technical scanning helps answer key questions about a target device or network, 
 - Pre-assessment before vulnerability scans or penetration tests.
 - Network troubleshooting (latency, unreachable hosts, routing issues).
 
-## Example (basic Nmap commands)
-```bash
 # quick scan of common ports
 nmap target_ip_or_hostname
 
