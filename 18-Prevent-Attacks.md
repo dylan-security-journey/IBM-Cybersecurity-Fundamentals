@@ -93,3 +93,81 @@
 ## Key takeaway
 - Applying PoLP ensures that even if credentials are compromised, the attacker’s **ability to cause harm is minimized**.  
 - By reducing permissions, organizations **reduce consequences and overall risk exposure**.  
+
+# Software Vulnerability Management
+
+## Overview
+- **Software vulnerability management**: Monitoring and mitigating vulnerabilities in software systems.
+- **Patch management**: Applying patches and updating systems as fixes become available.
+
+## Vendor Support
+- Vendors may stop supporting older versions (e.g., Microsoft ending support for Windows 7).
+- Unsupported software no longer receives patches → increases risk of attack.
+- Organizations should:
+  - Use supported versions whenever possible.
+  - Apply **compensating controls** (e.g., disable features, strengthen network security, increase monitoring) if using unsupported software.
+
+## Updates and Risks
+- Updating to the latest versions reduces attack risk.
+- New versions may also introduce new vulnerabilities.
+- Organizations must:
+  - Check with vendors for patch release timelines.
+  - Apply temporary compensating controls if no fix is available.
+
+## Vulnerability Scanners
+- **Purpose**: Identify flaws before attackers exploit them.
+- Types:
+  - **Network-based scanners**: Actively test for vulnerabilities (e.g., outdated software, missing patches, misconfigurations, weak passwords).
+  - **Source code scanners**: Analyze static code for errors.
+- Both provide valuable insight into system weaknesses.
+
+# Defense in Depth
+
+## Overview
+- **Definition**: A layered security strategy that uses multiple controls to protect assets.
+- **Origin**: Borrowed from the military concept—rather than relying on a single defense, use multiple layers.
+
+## Layers of Security
+- **Network defenses**: Firewalls
+- **Device defenses**: Malware scanners
+- **Data defenses**: Encryption
+
+## Key Point
+- For an attack to succeed, it must compromise or bypass **all layers of defense**, making successful attacks significantly more difficult.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
